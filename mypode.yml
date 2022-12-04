@@ -1,0 +1,11 @@
+apiVersion: V1
+kind: Pod
+metadata:
+  name: vertex
+spec:
+  containers:
+  - name: first-container
+    image: nginx
+    ports:
+    - containerPort: 80
+
