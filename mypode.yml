@@ -1,7 +1,7 @@
 apiVersion: V1
 kind: Pod
 metadata:
-  name: vertex
+  name: hello-pode
 spec:
   containers:
   - name: first-container
