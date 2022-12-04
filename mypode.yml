@@ -1,11 +1,11 @@
 apiVersion: V1
 kind: Pod
 metadata:
-  name: hello-pode
+  name: mypode
 spec:
   containers:
-  - name: first-container
-    image: nginx
-    ports:
-    - containerPort: 80
+   - name: first-container
+     image: nginx
+     ports:
+     - containerPort: 80
 
